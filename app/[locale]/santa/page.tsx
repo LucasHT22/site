@@ -9,7 +9,8 @@ const SIGNUPS_OPEN = true;
 const FORM_URL = `https://forms.hackclub.com/${YEAR}-secret-santa-form`;
 const RULES_URL = "https://hackclub.slack.com/archives/C01D7AHKMPF/p1671483616032169";
 const OG_IMAGE = "https://cloud-9kgqrlg7o-hack-club-bot.vercel.app/0santa.png";
-const ORPHEUS_IMAGE = "https://cdn.hackclub.com/01a1ff7c-db82-7b14-8adf-807097f12a07/secret_santa.png";
+const ORPHEUS_IMAGE =
+  "https://cdn.hackclub.com/01a1ff7c-db82-7b14-8adf-807097f12a07/secret_santa.png";
 
 type Props = {
   params: Promise<{ locale: string }>;
