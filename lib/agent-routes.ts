@@ -233,6 +233,13 @@ export const AGENT_ROUTES: AgentRoute[] = [
     group: "policies",
     contentSlug: "imprint",
   },
+  {
+    path: "/santa",
+    namespace: "Santa",
+    titleKey: "metaTitle",
+    descriptionKey: "metaDescription",
+    group: "community",
+  },
 ];
 
 export const README_SITE = {
